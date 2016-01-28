@@ -1,27 +1,27 @@
-# secs-to-min
+# sec-to-min
 
 > Convert seconds to minutes
 
-[![Build Status](https://img.shields.io/travis/sotojuan/secs-to-min.svg?style=flat-square)](https://travis-ci.org/sotojuan/secs-to-min)
+[![Build Status](https://img.shields.io/travis/sotojuan/sec-to-min.svg?style=flat-square)](https://travis-ci.org/sotojuan/sec-to-min)
 
 ## Install
 
 ```
-$ npm install --save secs-to-min
+$ npm install --save sec-to-min
 ```
 
 ## Usage
 
 ```js
-var secsToMin = require('secs-to-min');
+var secToMin = require('sec-to-min');
 
-secsToMin(70);
+secToMin(70);
 //=> '1:10'
 ```
 
 ## API
 
-### secsToMin(seconds)
+### secToMin(seconds)
 
 #### seconds
 

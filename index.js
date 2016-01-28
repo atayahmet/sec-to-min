@@ -1,6 +1,6 @@
 'use strict';
 
-const secsToMin = seconds => {
+const secToMin = seconds => {
   let secs = Math.round(seconds);
 
   if (secs < 60) {
@@ -26,4 +26,4 @@ const secsToMin = seconds => {
   return `${time.m}:${time.s}`;
 };
 
-module.exports = secsToMin;
+module.exports = secToMin;
