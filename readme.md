@@ -15,28 +15,19 @@ $ npm install --save secs-to-min
 ```js
 var secsToMin = require('secs-to-min');
 
-secsToMin('Hello');
-//=> 'I am cool'
+secsToMin(70);
+//=> '1:10'
 ```
 
 ## API
 
-### secsToMin(input, [options])
+### secsToMin(seconds)
 
-#### input
+#### seconds
 
-Type: `string`
+Type: `number`
 
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
+The number of seconds you want to conver to a minutes and seconds string.
 
 ## License
 
