@@ -29,12 +29,12 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "*",
-    "cz-conventional-changelog": "*",
-    "ghooks": "*",
-    "semistandard": "*",
-    "snazzy": "*",
-    "semantic-release": "^4.3.5"
+    "ava": "^0.14.0",
+    "cz-conventional-changelog": "^1.1.6",
+    "ghooks": "^1.2.1",
+    "semantic-release": "^4.3.5",
+    "semistandard": "^7.0.5",
+    "snazzy": "^4.0.0"
   },
   "semistandard": {
     "ignore": [
