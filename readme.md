@@ -27,7 +27,7 @@ secToMin(70);
 
 Type: `number`
 
-The number of seconds you want to conver to a minutes and seconds string.
+The number of seconds you want to conver to a minutes and seconds string. Must be a positive number.
 
 ## License
 

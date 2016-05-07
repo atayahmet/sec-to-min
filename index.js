@@ -3,6 +3,8 @@
 const secToMin = seconds => {
   let secs = Math.round(seconds);
 
+  if (secs < 0) throw new Error('Seconds must be positive');
+
   if (secs < 60) {
     if (secs < 10) return `0:0${secs}`;
 
