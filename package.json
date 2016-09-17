@@ -16,7 +16,7 @@
     "node": ">=4.2.0"
   },
   "scripts": {
-    "test": "semistandard --verbose | snazzy && NODE_ENV=test ava"
+    "test": "semistandard --verbose | snazzy && tape test.js"
   },
   "files": [
     "index.js"
@@ -29,9 +29,9 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.16.0",
     "semistandard": "^9.0.0",
-    "snazzy": "^5.0.0"
+    "snazzy": "^5.0.0",
+    "tape": "^4.6.0"
   },
   "semistandard": {
     "ignore": [
