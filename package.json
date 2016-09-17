@@ -2,6 +2,7 @@
   "name": "sec-to-min",
   "description": "Convert seconds to minutes",
   "license": "MIT",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/sotojuan/sec-to-min"
@@ -15,8 +16,7 @@
     "node": ">=4.2.0"
   },
   "scripts": {
-    "test": "semistandard --verbose | snazzy && NODE_ENV=test ava",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "semistandard --verbose | snazzy && NODE_ENV=test ava"
   },
   "files": [
     "index.js"
@@ -30,9 +30,6 @@
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.16.0",
-    "cz-conventional-changelog": "^1.1.6",
-    "ghooks": "^1.2.1",
-    "semantic-release": "^4.3.5",
     "semistandard": "^9.0.0",
     "snazzy": "^5.0.0"
   },
@@ -40,13 +37,5 @@
     "ignore": [
       "test.js"
     ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    },
-    "ghooks": {
-      "pre-commit": "npm run test"
-    }
   }
 }
