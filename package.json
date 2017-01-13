@@ -30,7 +30,7 @@
   "dependencies": {},
   "devDependencies": {
     "semistandard": "^9.0.0",
-    "snazzy": "^5.0.0",
+    "snazzy": "^6.0.0",
     "tape": "^4.6.0"
   }
 }
